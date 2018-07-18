@@ -1,0 +1,66 @@
+/*
+Theme Name:         Sage Starter Theme
+Theme URI:          https://roots.io/sage/
+Description:        Sage is a WordPress starter theme. <a href="https://github.com/roots/sage">Contribute on GitHub</a>
+Version:            8.4.2
+Author:             Roots
+Author URI:         https://roots.io/
+Text Domain:        sage
+
+License:            MIT License
+License URI:        http://opensource.org/licenses/MIT
+*/
+/** tai khoan **/
+/*#profile-account2{
+	font-family: "Roboto"
+}
+#profile-account2 .col-md-8 .profile-content{
+	border:none;
+	padding-top: 30px;
+}
+#profile-account2 .profile-content .portlet{
+	padding: 0;
+	margin: 0;
+}
+#profile-account2 .profile-content .portlet .portlet-title{
+	background-color: #ee403d;
+}
+#profile-account2 .profile-content .portlet .portlet-title .caption .caption-subject  {
+	
+    color: #fff !important;
+    padding: 8px;
+    font-size: 23px !important;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+#profile-account2 .profile-content{
+	border:none;
+} */
+
+.wp-social-login-connect-with {display:none;}
+.sfsi_footerLnk {display: none;}
+.list-post.column-2 .post-item:nth-child(odd){clear: both;}
+.error_message{display: block;font-size: 16px;color: #FFF;padding: 10px;background-color: #FF3333;text-align: center;text-shadow: 1px 2px 4px #333;}
+#google_translate_element .goog-te-gadget-simple{border: none;}
+#google_translate_element .goog-te-gadget-simple .goog-te-menu-value{color: #bbb;}
+header .topbar ul li a{color: #bbb}
+.lien-he .vc_custom_heading.title-with-decor{line-height: 100%;min-height: 60px;margin-top: 20px}
+footer .container{position: relative;}
+#back-to-top {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #AAA;
+    display: block;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 26px;
+    color: #AAA;
+}
+#back-to-top:hover{color: #EEE;background-color: #FF3333;border-color: #FF3333;}
+.list-post .post-item .wrap-item .info-item .price{position: relative}
+.list-post .post-item .wrap-item .info-item .price span span{display: block}
+.list-post .post-item .wrap-item .info-item .price span.views{float: left;font-size: 14px;font-weight: 300;color: #999;position: absolute;left: 15px;bottom: 12px;line-height: 100%}
+.list-post .post-item .wrap-item .info-item .price span.views span{font-size: 14px;font-weight: 300;color: #999;display: inline;line-height: 100%;margin-left: 3px;}
