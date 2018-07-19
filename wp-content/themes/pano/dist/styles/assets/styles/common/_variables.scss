@@ -1,0 +1,26 @@
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+$brand-primary:         #27ae60;
+
+$base-color: #666666;
+$red-color: #ee403d;
+$red-dark-color: #cf3734;
+$grey-color: #f2f2f2;
+$grey-light-color: #f1f2f2;
+$black-light-color: #333;
+$blue-color: #2a32d6;
+
+$screen-xs-min: 480px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+$screen-xs-max: $screen-sm-min - 1;
+$screen-sm-max: $screen-md-min - 1;
+$screen-md-max: $screen-lg-min - 1;

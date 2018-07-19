@@ -1,0 +1,850 @@
+/** Pano Services Page **/
+
+.pano-sevices{
+	h2{
+		position: relative;padding-bottom: 20px;margin-bottom: 30px;font-size: 26px;
+		&:after{
+			content: '';
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			border-bottom: 2px solid #FF3333;
+			height: 1px;
+			width: 80px;
+		}
+	}
+}
+.redcolor{color: #FF3333;}
+.center-text {
+	p{
+		font-size: 15px;text-align: center;color: #666;
+	}
+}
+.left-text{
+	padding-right: 25px;
+	p{font-size: 15px;color: #666;text-align: justify;}
+}
+.right-text{
+	padding-left: 25px;
+	p{
+		font-size: 15px;color: #666;text-align: justify;
+	}   
+}
+/** pano contact page **/
+.vc_custom_heading.title-with-decor{
+	position: relative;padding-bottom: 20px;margin-bottom: 30px;font-size: 20px;min-height: 79px;
+	&:after{
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		border-bottom: 2px solid #FF3333;
+		height: 1px; 
+		width: 80px;
+	}
+}
+.address-menu{
+	.iconbox{
+		float: left;
+		display: block;
+		height: 25px;
+		margin-right: 7px;
+		width: 15px;
+		.fa{
+			color: #FF3333;
+			font-size: 18px 14px;
+		}
+	}
+	.wpb_text_column {
+		margin-bottom: 10px;
+		p{
+			font-size: 14px;
+		}
+	}
+}
+
+#form-contact-wrap{
+	input, textarea{
+		width: 100%;
+		border: 1px solid #CCC;
+		border-radius: 3px;
+		padding: 0 10px;
+	}
+	input{height: 35px;margin-bottom: 10px;}
+	textarea{padding-top: 7px;height: 150px;}
+	.wpcf7-submit{
+		text-transform: uppercase;color: #FFF;font-weight: 400;background-color: #FF3333;border: none;height: 38px;
+		&:hover{opacity: 0.8;}
+	}
+}
+.social-icon {
+	.fa{
+		font-size: 35px; margin-right: 13px;
+		&:hover{
+			color:#ff3333;
+		}
+	}
+}
+/** Pano footer **/
+footer.content-info{
+	background-color: #25292b;
+	padding-bottom: 15px;
+}
+.footer-text{
+	color: #999;font-size:12px;padding-bottom: 10px;
+}
+.img-footer {
+	margin: 25px 0;
+	img{
+		display: inline-block;width: 100px; text-align: center;margin:0px 15px;
+	}
+}
+#wrap-col-footer{
+	height: 30px;
+	line-height: 30px;
+	margin-top: 15px;
+	.left-col{
+		i{
+			font-size: 16px;margin-right: 15px;color: #fff;
+			&:hover{color:#ff3333;}
+		}
+	}
+	.right-col{
+		text-align: right;
+		color: #999;
+		font-size: 12px;
+	}
+}
+.form-wrap{
+	width: 100%;
+	background-color: #ee403d;
+	padding: 28px 0;
+	span {
+		font-size: 16px;
+		color: #fff;
+	}
+	form{
+		text-align: right;
+		.inputtext{
+			width: 450px;
+			height: 30px;
+			background: #993333;
+			border: none;
+			border-radius: 5px;
+			padding: 10px;
+			font-size: 14px;
+			color: #fff;
+			font-style: italic;
+		}
+		.inputsubmit{
+			width: 120px;
+			height: 30px;
+			background-color: #fff;
+			border-radius: 5px;
+			color: #333;
+			border: none;
+			font-size: 16px;
+			margin-left: 15px;
+			font-weight: bold;
+
+		}
+	}
+}
+.main-footer{
+	background-color: #161a1c;
+	padding: 80px 0px;
+	li{
+		list-style: none;
+	}
+}
+.widget.widget_nav_menu,.widget.widget_text{
+	h2.widgettitle{
+		font-size: 16px;color: #fff;position: relative;font-weight: 600;
+		margin-bottom: 30px;
+		&:after{
+			content: '';
+			position: absolute;
+			left: 0;
+			bottom: -15px;
+			border-bottom: 2px solid #FF3333;
+			height: 1px;
+			width: 30px;
+		}
+	}
+	p{
+		color:#cccccc;font-size: 14px;display: block;
+	}
+	li{
+		margin-bottom: 7px;
+	}
+}
+.form-wrap.subscribe-form{
+	#message{
+		margin: 0px;
+	}
+}
+/***.mc4wp-response{
+	position: absolute;
+    top: 71px;
+    padding-top: 7px;
+    padding-left: 10px;
+    margin-left: -185px;
+    border: 1px solid #FFF;
+    border-radius: 9px;
+    padding-right: 10px;
+    background: #fff;
+    word-spacing: 1px;
+    .mc4wp-success{
+    	text-align: center;
+	    color: #4cadc9;
+	    font-size: 14px;
+	    font-weight: 500;
+    }
+}**/
+/** Pano Homepage **/
+#menu-gioi-thieu,#menu-tai-khoan,#menu-unique-advertising{
+	margin-left: -10px;
+	li{
+		a{
+			padding-left: 0;
+			&:before{
+				content:'\f105';
+				font-family: 'FontAwesome';
+				padding-right: 5px;
+				transition: all 0.3s;
+				opacity: 0;
+				color: $red-color;
+			}
+			&:hover{
+				padding-left: 10px;
+				&:before{
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+/** quang cáo ngoài trời **/
+.wrap-row-info-search{
+	.row.info-search{
+
+		.form-group{
+			label{
+				font-weight: 500;
+				font-size: 14px;
+				margin-bottom: 5px;
+			}
+			.form-control{
+				height: 40px;
+				border-radius: 0;
+				margin-bottom: 15px;
+				option{
+					color: #707070;
+				}
+			}
+		}
+		.dark-background{
+			color: #fff;
+			h1,h2,h3,h4,h5,h6{
+				color: #fff;
+			}
+			.form-control{
+				background: none;
+				color: #fff;
+			}
+		}
+	}
+	.row.submit-search{
+		p{
+			text-align: center;
+			font-weight: 500;
+			a{color: #414141;
+				&:after{
+					content:'\f107';
+					font-family: FontAwesome;
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+}
+.form-group.text-right{
+	text-align: right;
+}
+.address-product{
+	margin-bottom: 15px;
+	.iconbox{
+		float: left;
+	}
+	p{
+		font-size: 14px;
+		color: #666666;
+	}
+	i.fa{
+		color: #ee403d;
+		font-size: 16px;
+		margin-right: 6px;
+	}
+}
+.title-location{
+	p{
+		font-size: 18px;
+		font-weight: bold;
+		color: #333333;
+		:hover{
+			color:#ee403d;
+		}
+	}
+}
+.product-img{
+	margin-bottom: 15px;
+}
+/** Thương hiệu **/
+.widget.widget_sp_image-3.widget_sp_image{
+	margin-bottom: 40px;
+}
+.widget.text-4.widget_text{
+	margin-bottom: 40px;
+}
+.post{
+	.entry-title{
+		font-size: 24px;
+		font-weight: 500;
+		color: #333333;
+	}
+	h3{
+		font-size: 18px;
+		color: #333333;
+	}
+	p{
+		font-size: 14px;
+		color: #666666;
+	}
+}
+.widget_tag_cloud{
+	margin-bottom: 40px;
+	.tagcloud{
+		a{
+			font-size: 14px !important;
+			padding: 4px 10px;
+			background: #f4f5f5;
+			color: #666666;
+			margin-right: 10px;
+		}
+		:hover{background-color:#ee403d ; color: #fff;}
+	}
+}
+.widget_tag_cloud{
+	h3{
+		font-size: 24px;
+		color: #333333;
+	}
+}
+/** wiget mostview **/
+.widget {
+	h3{
+		font-size: 18px;
+		margin-bottom: 30px;
+		color: #333;
+		position: relative;
+		&:after{
+			content: '';
+			position: absolute;
+			left: 0;
+			bottom: -5px;
+			border-bottom: 2px solid #f33;
+			height: 2px;
+			width: 50px;
+		}
+
+	}
+	.mostview-port{
+		.mostview{
+			height: 100px;
+			width: 100%;
+			position: relative;
+			margin-bottom: 10px;
+		}
+		a{
+			font-size: 15px;
+			color: #333333;
+			display: block;
+			&:hover{color:#ee403d;}
+		}
+		span{color: #666;font-size: 12px;position: absolute; bottom: 0px;}
+		.mostview-dark{
+			&:before{
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: rgba(0, 0, 0, 0.5);
+				-webkit-transform: scale(0);
+				transform: scale(0);
+				-webkit-transition-property: transform;
+				transition-property: transform;
+				-webkit-transition-duration: 0.3s;
+				transition-duration: 0.3s;
+				-webkit-transition-timing-function: ease-out;
+				transition-timing-function: ease-out;
+				z-index: 1;
+				opacity: 0;
+			}
+			&:after{
+				font-family: FontAwesome;
+				color: #fff;
+				content: "\f002";
+				font-size: 15px;
+				transform: translate(-50%,-50%);
+				top: 50%;
+				left: 50%;
+				position: absolute;
+				opacity: 0;
+				transition: 0.3s;
+				z-index: 2;
+				padding: 5px;
+			}
+			&:hover{
+				&:before{
+					-webkit-transform: scale(1);
+					transform: scale(1);
+					opacity: 1;
+				}
+				&:after{
+					opacity: 1;
+				}
+			}
+		}
+
+		.img-mostview1{
+			background-image: url(http://pano.dev.sdigi.vn/wp-content/uploads/2016/07/mostview-18.jpg);
+			width: 100px;
+			height: 100px;
+			margin-right: 20px;
+			float: left;
+			position: relative;
+
+		}
+		.img-mostview2{
+			background-image: url(http://pano.dev.sdigi.vn/wp-content/uploads/2016/07/Rectangle-1811.jpg);
+			width: 100px;
+			height: 100px;
+			margin-right: 20px;
+			float: left;
+			position: relative;
+		}
+		.img-mostview3{
+			background-image: url(http://pano.dev.sdigi.vn/wp-content/uploads/2016/07/mostview-182.jpg);
+			width: 100px;
+			height: 100px;
+			margin-right: 20px;
+			float: left;
+			position: relative;
+		}
+		
+	}
+}
+/**  login**/
+.top-social{
+	.login:hover{
+		.login-box{display: block;}
+	}
+}
+.login-box{
+	position: absolute;
+	width: 200px;
+	z-index: 999;
+	top: 103%;
+	right: 0px;
+	margin-top: -1px;
+	padding-top: 1px;
+	display: none;
+	box-shadow:  0px 3px 10px -4px #666;
+	>div{
+		background-color: #fff;
+	}
+	.social-login{
+		.wp-social-login-widget{
+			.wp-social-login-provider-list{
+				border-top: 0px;
+				margin-top: 0;
+				padding-top: 0;
+				.wp-social-login-provider:after{padding-left:13px;}
+				a{
+					font-size: 11px;
+				}
+			}
+		}
+	}
+	.box-control{
+		ul{
+			text-align: left;
+			li{
+				display: block;
+				width: 100%;
+				float: none;
+				border: 0;
+				padding: 10px 15px;
+				a{
+					display: block;
+				}
+				&.border-top{
+					border-top: 1px solid #f4f5f5;
+				}
+			}
+		}
+	}
+}
+.dummy-login-form{	
+	padding: 5px 15px 15px 15px;
+	.status{
+		color: #f33;
+	}
+	input{
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		padding: 5px;
+		color: #ccc;
+		font-size: 11pt;
+		width: 100%;
+		display: block;
+		margin-bottom: 10px;
+		&[type="checkbox"]{
+			float: left;
+			width: auto;
+			margin-right: 5px;
+		}
+		&.form-button{color: #333;background-color: #FFF;border: 1px solid #CCC;font-size: 12px;font-weight: 500;}
+	}
+	.extra-row{
+		.remember-me{
+			width: 50%;
+			float: left;
+			font-size: 11px;
+			text-align: left;
+			color: #333;
+			line-height: 23px;
+			input[type=checkbox]{
+				&:checked, &:not(:checked){
+					+label{
+						padding-left: 20px;
+						font-size: 11px;
+						&:before{
+							top: 3px;
+							width: 15px;
+							height: 15px;
+						}
+						&:after{
+							font-size: 11px;
+							left: 3px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.forgot-pw{
+		color: #333;font-size: 11px;
+	}
+	.register-button{text-transform: uppercase;color: #FF3333;font-size: 12px;font-weight: 500;}
+}
+.social-login{
+	padding: 15px 15px 0pc 15px;
+	.or{
+		color: #bcc1c5;
+		font-size: 12px;
+		position: relative;
+		&:before{
+			content: "";
+			border-bottom: 1px solid #bcc1c5;
+			position: absolute;
+			top: 6px;
+			left: -69px;
+			width: 61px;
+		}
+		&:after{
+			content: "";
+			border-bottom: 1px solid #bcc1c5;
+			position: absolute;
+			top: 6px;
+			left: 38px;
+			width: 61px;
+		}
+	}
+	.login-fb{    
+		width: 100%;
+		border: none;
+		border-radius: 5px;
+		background-color: #4b69a9;
+		color: #fff;
+		display: block;
+		font-size: 12px;
+		padding: 7px;
+		margin-top: 10px;
+		span{
+			padding-left: 15px;
+		}
+		.fa-facebook-square{
+			font-size: 16px;
+			position: absolute;
+			left: 20px;
+		}
+	}
+	.login-gg{
+		width: 100%;
+		border: none;
+		border-radius: 5px;
+		background-color: #dd4437;
+		color: #fff;
+		display: block;
+		font-size: 12px;
+		padding: 7px;
+		margin: 10px 0px 5px 0px;
+		span{
+			padding-left: 16px;
+		}
+		.fa-google-plus{
+			font-size: 16px;
+			position: absolute;
+			left: 23px;
+		}
+	}
+}
+/** login page **/
+body.login{
+	background-color: #fff !important;
+	.content.row{
+		background-color: #fff;
+	}
+}
+/** Blog **/
+.row1{
+	float: left;
+	.img-blog{
+		background-image: url(http://pano.dev.sdigi.vn/wp-content/uploads/2016/07/IMG-5.jpg);
+		width: 270px;
+		height: 200px;
+		margin-right: 20px;
+		float: left;
+	}
+	span{
+		font-size:18px;
+		color: #666;
+	}
+
+	.day-blog{
+		font-size: 28px;
+		color: #666;
+		p{
+			color: #666;
+			font-size: 14px;}
+		}
+	}
+	.blog-title{
+		font-size: 15px;
+		color: #333;
+	}
+	.icon-text{
+		font-size: 12px;
+		color: #dcddde;
+		margin-right: 25px;
+	}
+	.icon-row{	
+		.icon-text{
+			font-size: 12px;
+			color: #dcddde;
+		}
+		.icon-post{
+			background-image: url(http://pano.dev.sdigi.vn/wp-content/uploads/2016/07/icon-post.png);
+			height:10px;
+			width: 10px;
+			margin-right: 5px;
+			background-repeat: no-repeat;
+			display: inline-block;
+		}
+		.icon-comment{
+			background-image: url(http://pano.dev.sdigi.vn/wp-content/uploads/2016/07/icon-comment.png);
+			height:10px;
+			width: 10px;
+			margin-right: 5px;
+			background-repeat: no-repeat;
+			display: inline-block;
+			span{
+				font-size: 12px;
+				color: #dcddde;
+				margin-right: 25px;
+			}
+		} 
+	}
+	.row1{
+		margin-bottom: 25px;
+	}
+/**  .product-detail **/
+.main{
+	.product-icon{
+		height: 100px;
+		li{
+			float: left;
+			width: 25%;
+			text-align: center;
+			text-transform: uppercase;
+			color: #666;
+			font-size: 20px;
+		}
+		i{
+			font-size: 20px;
+			color: #ee403d;
+			display: block;
+			padding-bottom: 5px;
+		}
+		
+	}
+	.product-title{
+		font-size: 24px;
+		color: #333;
+	}
+	.detail-product{
+		li{
+			color: #666;
+			font-size: 16px;
+			line-height: 25px;
+		}
+		.bold-text{
+			font-weight: bold;
+		}
+	}
+	.title-product{
+		font-size: 18px;
+		color: #333;
+		position: relative;
+		margin: 30px 0px;
+		font-weight: 500;
+		&:before{
+			content:"";
+			border-bottom: 2px solid #ee403d;
+			position: absolute;
+			top: 38px;
+			width: 70px;
+		}
+	}
+	.position-span{
+		margin-bottom: 45px;
+		display: block;
+	}
+	.dis-content{
+		font-size: 14px;
+		color: #707070;
+	}
+	.checkbox-wrap{
+		ul{
+			width: 33%;
+			float: left;
+		}
+		li{
+			input{
+				margin-right: 50px
+			}
+		}
+	}
+	.map-pic{
+		background-image: url(http://pano.dev.sdigi.vn/wp-content/uploads/2016/07/Rectangle-185.jpg);
+		width: 770px;
+		height:430px;
+		margin-bottom: 50px;
+	}
+}
+
+/** Quan ly bai dang**/
+#profile-account2{
+	.profile-content{
+		.table-striped {
+			tbody{
+				tr{
+					background-color: #fff;
+					th{
+						border:none;
+						text-align: center;
+					    color: #000;
+					    font-size: 16px;
+					    font-weight: 600 					}
+					td{
+
+						vertical-align: middle;
+						color: #333;
+						border:none;
+						padding: 15px;
+						font-size: 15px;
+						line-height: 17px;
+						color: #333;
+				    font-weight: 500;
+						&:first-child{width:55%; padding-left: 0;}
+						&:last-child{width: 16%;padding-right: 0}
+						.fa{
+							color: #ee403d;
+						}
+					}
+				}
+				.profile-desc-link{
+				    font-size: 15px;
+				    line-height: 17px;
+				    color: #333;
+				    font-weight: 500;
+					img{width: 75px !important; margin: 15px 0px;}
+				}
+			}	
+		}
+	}
+}
+
+/** SEARCH RESULTS **/
+.sidebar{
+	.widget{
+		.mostview-port{
+			.content-text {
+				.np-title{
+					&:hover{
+						color:#ee403d;
+					}
+				}
+			}
+		}
+	} 
+} 
+.group-submit{	
+	#update_mesage{
+		.bootstrap-wrapper{
+			.alert-success{
+				text-align: center;
+			}
+		}
+	}
+}
+.cam-on {
+	.thanks {
+		background-color: green;
+	}
+}
+.search-form{
+	.search-submit{
+		margin-bottom: 31px !important;
+	}
+}
+time {
+	display: none;
+}
+.author{
+	display: none;
+}
+.tags{
+	a{
+	color: #666;
+	font-style: italic;
+	}
+}
+.tags {
+	a:hover{
+	color: #ff3333;
+	}
+}

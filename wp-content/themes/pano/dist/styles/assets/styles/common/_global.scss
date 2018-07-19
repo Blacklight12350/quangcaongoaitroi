@@ -1,0 +1,257 @@
+/** MISC **/
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: $base-color;
+	line-height: 1.5;
+}
+.media-body, .media-left, .media-right{display: inline !important}
+div.bootstrap-wrapper a, a{
+	color: $red-color;
+	text-decoration: none;
+	transition: all 0.4s;
+	&:hover{
+		color: $black-light-color;
+		text-decoration: none;
+	}
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	li{
+		list-style: none;		
+	}
+}
+.home{
+	.page-header{
+		display: none;
+	}
+}
+.nopadding{
+	padding: 0 !important;
+}
+.text-red{
+	color: $red-color;
+}
+.space-padding{
+	padding: 10px;
+}
+h1, h2, h3, h4, h5, h6{
+	line-height: 1.5;
+}
+h1{
+	font-size: 48px;
+	font-weight: normal;
+	@media(max-width: $screen-xs-max){
+		font-size: 35px;
+	}
+}
+h2 {
+	font-size: 30px;
+	margin: 0px 0px 15px 0px;
+	color: #333333;
+	font-weight: bold;
+}	
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 18px;
+	color: #333333;
+	margin: 0px 0px 10px 0px;
+}
+h5 {
+	font-size: 16px;
+	font-weight: normal;
+}
+h6 {
+	font-size: 14px;
+	font-weight: normal;
+}
+.justify-content{
+	p{
+		text-align: justify;
+	}
+}
+.btn, div.bootstrap-wrapper .btn, .vc_btn3-container .vc_btn3.vc_btn3-color-grey{
+	font-size: 16px;
+	background: $red-color;
+	border-radius: 5px;
+	padding: 8px 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	transition: all 0.3s;
+	border: 0;
+	line-height: 1.5;
+	outline: none;
+	&.btn-big, &.vc_btn3-size-md{
+		font-size: 20px;
+		padding: 7px 50px;
+		font-weight: 400;
+	}
+	&:hover, &:focus{
+		background: $black-light-color;
+		color: #fff;
+		outline: none;
+	}
+	&.btn-bg-dark{
+		&:hover, &:focus{
+			background: #fff;
+			color: $red-color;
+			outline: none;
+		}
+	}
+	&.btn-outline-grey{
+		background: #fff;
+		border: 1px solid $grey-color;
+		text-transform: uppercase;
+		color: $base-color;
+		&:hover, &:focus{
+			border-color: $red-color;
+			box-shadow: none;
+			color: $red-color;
+		}
+	}
+	&.btn-none-radius{
+		border-radius: 0;
+	}
+}
+div.bootstrap-wrapper table, table{
+	thead{
+		tr{
+			th{
+				font-size: 16px;
+				color: $black-light-color;
+				text-align: center;
+				border-bottom: 0;
+			}
+		}
+	}
+}
+.form-group{
+	position: relative;
+	label{
+		font-weight: normal;
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.form-gender-group{
+		position: relative;
+	}
+	.form-control{
+		height: 40px;
+		border-radius: 0;
+		margin-bottom: 30px;
+		option{
+			color: #666;
+		}
+	}
+	::-webkit-input-placeholder{ 
+		font-style: italic; 
+	}
+}
+.dark-background{
+	color: #fff;
+	h1,h2,h3,h4,h5,h6{
+		color: #fff !important;
+	}
+	.form-control{
+		background: none;
+		color: #fff;
+	}
+}
+.group-radio{
+	position: relative;
+}
+input[type=radio]{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	opacity: 0;
+	z-index: 3;
+	cursor: pointer;
+	height: auto !important;
+	~ label{
+		padding: 0 0 0 30px;
+		background: url(../images/icon-radio.png) no-repeat 0 50% transparent;
+	}
+	&:checked, &:hover {
+		~ span, ~ label{
+			background: url(../images/icon-radio-check.png) no-repeat 0 50% transparent;
+		}
+	}
+}
+input[type="checkbox"]{
+	position: absolute;
+	left: -9999px;
+	&:not(:checked), &:checked{
+		+ label{
+			font-size: 14px;
+			font-weight: 400;
+			color: $black-light-color;
+			position: relative;
+			padding-left: 25px;
+			cursor: pointer;
+			&:before{
+				content: '';
+				position: absolute;
+				left: 0;
+				top: 2px;
+				width: 17px;
+				height: 17px;
+				background: none;
+				border-radius: 3px;
+				box-shadow: none;
+				border: 2px solid $red-color !important;
+			}
+			&:after{
+				content: '✔';
+				position: absolute;
+				font-size: 12px;
+				top: 5px;
+				left: 4px;
+				color: #fff;
+				font-weight: bold;
+				line-height: 12px;
+				opacity: 0;
+			}
+		}
+	}
+	&:checked{
+		+ label{
+			&:before{
+				background: $red-color;
+			}
+			&:after{
+				opacity: 1;
+			}
+		}
+	}
+}
+div.bootstrap-wrapper{
+	.alert-info{
+		background-color: rgba(255, 152, 151, 0.65);
+		border-color: rgba(245, 97, 95, 0.74);
+		color: $red-color;
+	}
+} 
+.error{
+	color: $red-color;
+}
+.vc_custom_heading{
+	a{
+		&:hover{
+			color: $red-color;
+		}
+	}
+}

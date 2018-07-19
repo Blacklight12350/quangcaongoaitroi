@@ -1,0 +1,15 @@
+/** content **/
+.page-header{
+	padding: 100px 0;border: none;margin-top: 0;
+	h1{
+		color: #fff;
+		padding-left: 20px;
+		font-weight: 600;
+		font-size: 35px;
+		border-left: 4px solid #f33;
+		text-transform: uppercase;
+		@media(max-width: $screen-xs-max){
+			font-size: 25px;
+		}
+	}
+}
